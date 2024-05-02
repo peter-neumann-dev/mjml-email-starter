@@ -1,0 +1,31 @@
+<mjml>
+  <mj-body>
+    <mj-section padding="0">
+      <mj-column background-color="#45D2B0" padding="20px 0">
+        <mj-text align="center" font-size="20px" font-weight="bold">
+          Left Column
+        </mj-text>
+        <mj-text align="center">
+          Accumsan elit nunc porttitor integer libero faucibus. Non integer eget
+          urna ipsum justo. Ac lobortis sollicitudin sem potenti quis purus.
+        </mj-text>
+      </mj-column>
+
+      <mj-column background-color="#24216E" padding="20px 0">
+        <mj-text
+          align="center"
+          font-size="20px"
+          font-weight="bold"
+          color="#f8fafc"
+        >
+          Right Column
+        </mj-text>
+        <mj-text align="center" color="#f8fafc">
+          Suscipit amet porta erat fringilla tristique leo sociosqu nullam
+          cursus elit condimentum. Pretium curae eleifend fringilla lobortis per
+          iaculis tortor. Lacinia quisque.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

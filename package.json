@@ -1,0 +1,34 @@
+{
+  "name": "mjml-email-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An email templating starter package using MJML for templating and Vite for development.",
+  "author": "Peter Neumann",
+  "type": "module",
+  "scripts": {
+    "build": "npm run cleanup && mjml src/index.mjml -o dist",
+    "cleanup": "rm -rf dist && mkdir -p dist",
+    "dev": "npm run cleanup && concurrently -c auto -n mjml,Vite 'mjml -w src/index.mjml -o dist' 'vite dist'",
+    "prepare": "husky",
+    "prettier": "npx prettier --write .",
+    "preview": "vite preview",
+    "send:mail": "node --import tsx src/send-mail.ts",
+    "test": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.12.8",
+    "@types/nodemailer": "^6.4.15",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "husky": "^9.0.11",
+    "mjml": "^4.15.3",
+    "nodemailer": "^6.9.13",
+    "prettier": "3.2.5",
+    "prettier-plugin-packagejson": "^2.5.0",
+    "tsx": "^4.8.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  }
+}

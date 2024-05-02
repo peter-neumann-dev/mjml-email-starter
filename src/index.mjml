@@ -1,0 +1,68 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Trebuchet MS" />
+      <mj-text font-size="16px" color="#181A26" line-height="1.3" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="white">
+    <!-- Header -->
+    <mj-section background-color="#e2e8f0">
+      <mj-column padding="24px">
+        <mj-image width="256px" src="https://img.logoipsum.com/254.svg">
+        </mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- Introduction Text -->
+    <mj-section background-color="#f1f5f9" padding="32px 0">
+      <mj-column>
+        <mj-text align="center" font-size="28px" font-weight="bold">
+          A nice looking email template ✨
+        </mj-text>
+        <mj-text align="center" font-size="16px" padding-bottom="16px">
+          This is a simple email template created with MJML.<br />
+          The only framework that makes responsive email easy
+        </mj-text>
+        <mj-button
+          background-color="#9333ea"
+          color="white"
+          font-size="16px"
+          align="center"
+          font-weight="bold"
+          href="https://www.example.com/"
+        >
+          🔗 Call to Action
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Columns -->
+    <mj-include path="./components/columns.mjml" />
+
+    <!-- Image -->
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-image
+          padding="0"
+          src="https://source.unsplash.com/75xPHEQBmvA/600x250"
+          width="600px"
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding-top="8px">
+      <mj-column width="400px">
+        <mj-text align="center" font-size="11px">
+          <p>
+            This email was sent to you by Company Inc.<br />
+            If you no longer wish to receive these emails unsubscribe
+            <a href="https://www.example.com/unsubscribe">here</a>.
+          </p>
+          <p>Company Inc., 1234 Street Rd, Suite 1234, Some City, ST 12345</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
