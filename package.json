@@ -2,7 +2,7 @@
   "name": "mjml-email-starter",
   "version": "1.0.0",
   "private": true,
-  "description": "An email templating starter package using MJML for templating and Vite for development.",
+  "description": "An email templating starter package using mjml. for templating and Vite for development.",
   "author": "Peter Neumann",
   "type": "module",
   "scripts": {

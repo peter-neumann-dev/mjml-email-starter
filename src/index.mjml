@@ -21,7 +21,7 @@
           A nice looking email template ✨
         </mj-text>
         <mj-text align="center" font-size="16px" padding-bottom="16px">
-          This is a simple email template created with MJML.<br />
+          This is a simple email template created with mjml.<br />
           The only framework that makes responsive email easy
         </mj-text>
         <mj-button

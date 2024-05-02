@@ -2,7 +2,7 @@
 
 # mjml. Email Starter Package
 
-[![MJML](https://img.shields.io/badge/mjml.-4-FF7F00?style=flat-square)](https://mjml.io/)
+[![mjml.](https://img.shields.io/badge/mjml.-4-FF7F00?style=flat-square)](https://mjml.io/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
@@ -14,11 +14,11 @@
 
 ## 📖 About
 
-An email templating starter package using [MJML](https://mjml.io/) for templating and [Vite](https://vitejs.dev/) for development.
+An email templating starter package using [mjml.](https://mjml.io/) for templating and [Vite](https://vitejs.dev/) for development.
 
 **Useful resources:**
 
-- [MJML Documentation](https://mjml.io/documentation/)
+- [mjml. Documentation](https://mjml.io/documentation/)
 - [Can I email](https://www.caniemail.com/)
 - [Litmus Email Testing (paid)](https://www.litmus.com/email-testing)
 
@@ -36,7 +36,7 @@ Install Node.js dependencies
 npm i
 ```
 
-Start the development server and MJML watcher (typically on [localhost:5173](http://localhost:5173))
+Start the development server and mjml. watcher (typically on [localhost:5173](http://localhost:5173))
 
 ```bash
 npm run dev
