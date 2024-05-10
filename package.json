@@ -9,8 +9,8 @@
     "build": "npm run cleanup && mjml src/index.mjml -o dist",
     "cleanup": "rm -rf dist && mkdir -p dist",
     "dev": "npm run cleanup && concurrently -c auto -n mjml,Vite 'mjml -w src/index.mjml -o dist' 'vite dist'",
+    "format": "npx prettier --write .",
     "prepare": "husky",
-    "prettier": "npx prettier --write .",
     "preview": "vite preview",
     "send:mail": "node --import tsx src/send-mail.ts",
     "test": "tsc --noEmit"

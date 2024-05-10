@@ -69,7 +69,7 @@ npm run test
 Format code with Prettier
 
 ```bash
-npm run prettier
+npm run format
 ```
 
 To allow Prettier to format your code on save, configure your editor:<br>
